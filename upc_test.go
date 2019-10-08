@@ -11,7 +11,7 @@ func TestValid(t *testing.T) {
 	}
 }
 
-func TestInvalid(t *testing.T) {
+func TestInvalidLength(t *testing.T) {
 	want := false
 
 	var invalid_values [2]string
