@@ -1,5 +1,9 @@
 package upc
 
 func Valid(s string) bool {
-	return true
+	if len(s) == 12 {
+		return true
+	} else {
+		return false
+	}
 }
